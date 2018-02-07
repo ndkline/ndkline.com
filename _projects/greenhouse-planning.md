@@ -2,7 +2,7 @@
 layout: project
 title: Planning.Solar
 description: Informational site to guide users through greenhouse, conservatory, etc.., purchases and builds
-# image: /img/mapUS.png
+image: /img/solar-logo.png
 image-content: /img/greenhouse-planning-image.png
 image-content-caption: Homepage of Greenhouse Planning
 weight: 7
