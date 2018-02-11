@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-{% assign projects = site.projects | sort: 'weight' | reverse  %} 
-{% assign contributions = site.contributions | sort: 'weight' | reverse  %} 
+{% assign projects = site.projects | sort: 'weight' | reverse  %}
+{% assign contributions = site.contributions | sort: 'weight' | reverse  %}
 
-<div class="container-fluid" id="fold">
-  <div class="row py-5">
-    <div class="col-12 text-center px-0">
+<div class="container-fluid" id="fold" >
+  <div class="row py-5" style="height:90vh">
+    <div class="col-12 text-center px-0 my-auto">
       <h1 class="text-uppercase">
         {{ site.title }}
       </h1>
@@ -23,7 +23,7 @@ layout: default
       <form method="get" action="{{ site.resume_url }}">
         <button  type="submit" class="btn btn-outline-light btn-lg "><i class="fa fa-download pr-3"></i> Download Resume</button>
       </form>
-      
+
     </div>
   </div>
 </div>
@@ -33,7 +33,7 @@ layout: default
     <div class="col-12 mt-5">
       <h2 class="text-center text-uppercase display-1">Projects</h2>
       <hr class="light">
-      
+
     </div>
     {% for project in projects %}
     <div class="col-12 col-md-4 portfolio-item text-center px-5 pt-5">
@@ -46,7 +46,7 @@ layout: default
     {% endfor %}
 
 
-    <div class="col-12 mt-5">        
+    <div class="col-12 mt-5">
 
 
       <h2 class="text-center text-uppercase display-1">Contributions</h2>
@@ -71,7 +71,7 @@ layout: default
   </div>
 
   <div class="row pb-5">
-    <div class="col-12 mt-5">        
+    <div class="col-12 mt-5">
       <h2 class="text-center text-uppercase display-1">Experience</h2>
       <!-- <hr class="light"> -->
     </div>
@@ -89,7 +89,7 @@ layout: default
         {% for item in category.items %}
           <div class="col-12 col-md-4">
             <h4 class="text-center mb-0">
-              {{item.title}}  
+              {{item.title}}
             </h4>
               <div class="container">
                   <div class="row justify-content-center py-3">
@@ -101,12 +101,12 @@ layout: default
                   </div>
                 </div>
             {{item.content}}
-            
-            
+
+
           </div>
         {% endfor %}
     {% endfor %}
-    
-    
+
+
   </div>
 </div>
