@@ -3,6 +3,7 @@ layout: project
 title: Solar Flair
 description: Dynamic Jekyll Theme Gem
 image: /img/proj--solar-flair.svg
+padding: p-5
 image-content: /img/proj--solar-flair-home.png
 image-content-caption: Homepage of the Solar Flair Theme 
 weight: 8
