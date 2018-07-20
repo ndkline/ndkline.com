@@ -54,7 +54,7 @@ Jekyll is a [static site generator](https://davidwalsh.name/introduction-static-
 
 The elegance of this is that Jeklyl uses the same templating engine, [Liquid](https://shopify.github.io/liquid/), as Shopify. This would allow the site to be integrated directly into the Shopify backend as a theme. 
 
-The base theme, [Solar Flair](https://github.com/ndkline/solar-flair), was developed for usage across  [Solar Innovations](https://solarinnovations.com/), [IRT Reels](https://irtreels.com/), [Planning Solar](https://planning.solar/) and [Universal Clamps](https://universalclamps.com/) web presences. Because of this consistency we can cache assets, like CSS, JS, images, etc..., for use between sites.
+The base theme, [Solar Flair](https://github.com/ndkline/solar-flair), was developed for usage across  [Solar Innovations](https://solarinnovations.com/), [IRT Reels](https://irtreels.com/), [Planning Solar](https://planning.solar/) and [Universal Clamps](https://universalclamps.com/) web presences. Because of this consistency we can cache assets, like CSS, JS, images, etc..., for use between sites. Also, when a feature is built for one, all properties can also tap into it.
 
 ### Shopify
 Shopify took the place of our backend for the most part (WordPress with WooCommerce). All the business functions are isolated within this system.
