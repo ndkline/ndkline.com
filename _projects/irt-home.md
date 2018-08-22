@@ -9,11 +9,6 @@ image-content-caption: Homepage of the Solar Flair Theme
 weight: 8
 ---
 
-
-# IRT Reels
-Keeping you in the fight!
-
-
 ## Redesign
 
 The goal of the redesign was to create higher quality user experiences, create channels for organic community engagement, and for the codebase to be scalable and easily maintainable.
